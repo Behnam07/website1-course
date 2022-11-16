@@ -1,0 +1,79 @@
+
+/* Contacts CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 700px;
+    background-image: url("../Images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 52px;
+    background-color: #373837;
+    background-blend-mode: multiply;
+    color: white;
+}
+.nav {
+    width: 700px;
+    margin: auto;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+
+}
+.nav .nav-list {
+    list-style-type: none;
+
+    font-size: 18px;
+}
+.nav .nav-list .nav-item {
+    display: inline-block;
+    padding: 15px;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.nav a:link a:visited a:hover a:active {
+    color: white;
+    text-decoration: none;
+}
+.nav .nav-list .nav-item :hover {
+    color: orange;
+}
+
+.nav1 {
+    width: 700px;
+    height: 400px;
+    color: white;
+    padding: 30px 30px 0;
+    box-shadow: 0 0 15px #000000;
+    margin: auto;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.nav1 .nav-back {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-right: 40px;
+    margin-top: 120px;
+
+}
+.nav1 a:link a:visited a:hover a:active {
+    color: white;
+    text-decoration: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+}
