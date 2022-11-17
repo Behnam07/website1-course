@@ -13,16 +13,17 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 52px;
+    padding-top: 32px;
     background-color: #373837;
     background-blend-mode: multiply;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 .nav {
     width: 700px;
     margin: auto;
     color: white;
-    padding-top: 35px;
+    padding-top: 15px;
     text-align: center;
 
 }
@@ -52,20 +53,35 @@ body {
     height: 400px;
     color: white;
     padding: 30px 30px 0;
-    box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #ffffff;
     margin: auto;
     padding-top: 35px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.nav1 p{
+    line-height: 40px;
 }
 
-.nav1 .nav-back {
+.nav1-back-button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+
+/* .nav1 .nav-back {
+    height:70%;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
     margin-right: 40px;
-    margin-top: 120px;
-
-}
+    border: 2px solid #ffff;
+} */
 .nav1 a:link a:visited a:hover a:active {
     color: white;
     text-decoration: none;

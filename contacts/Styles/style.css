@@ -13,16 +13,17 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 52px;
+    padding-top: 32px;
     background-color: #373837;
     background-blend-mode: multiply;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 .nav {
     width: 700px;
     margin: auto;
     color: white;
-    padding-top: 35px;
+    padding-top: 15px;
     text-align: center;
 
 }
@@ -47,33 +48,130 @@ body {
     color: orange;
 }
 
-.nav1 {
-    width: 700px;
-    height: 400px;
-    color: white;
-    padding: 30px 30px 0;
-    box-shadow: 0 0 15px #000000;
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 15px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+
+}
+
+/* Style the container/contact section */
+.container {
+    width: 800px;
     margin: auto;
-    padding-top: 35px;
+    padding: 10px 10px 0;
+
+}
+.container p, h2 {
+    font-family: 'Bree Serif', serif;
+
+    color: rgb(255, 255, 255);
+}
+.container p{
+    font-family: 'Sono', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.column .img {
+    width: 95%;
+    height: 250px;   
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+
+    }
+}
+
+
+/* Footer */
+.footer {
+    list-style-type: none;
+    height: 60px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 20px;
+    border: 1px solid rgb(43, 43, 43);
+    margin-top: 35px;
+    text-align: center;
+}
+
+.footer .footer-icon {
+    list-style-type: none;
+}
+
+.footer .footer-icon .footer-logo {
+    display: inline-block;
+    padding: 3px 28px 3px 28px;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+
+}
+    /* back */
+.nav1 {
+    width: 800px;
+    margin: auto;
+    color: white;
     text-align: center;
 }
 
 .nav1 .nav-back {
     display: flex;
-    flex-direction: row-reverse;
     align-items: flex-end;
-    margin-right: 40px;
-    margin-top: 120px;
-
 }
 .nav1 a:link a:visited a:hover a:active {
     color: white;
     text-decoration: none;
 }
-a {
+.nav1 a{
     color: white;
     text-decoration: none;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 a:hover {
     color: orange;
 }
+

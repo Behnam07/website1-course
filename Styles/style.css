@@ -1,3 +1,6 @@
+/*  font-family: 'Bree Serif', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sono', sans-serif;  */
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +14,41 @@ body{
     font-family: sans-serif;
 }
 */
+/*@media (min-width: 600px)*/
+.blog-nav-menu {
+    background-attachment: local;
+    background-color: #fff;
+    border: 1px solid #eaf0f6;
+    box-shadow: 0 2px 4px rgb(33 51 67 / 12%);
+    color: #2e475d;
+    position: relative;
+
+}
+
+.blog-read-time-bar {
+    background-attachment: local;
+    display: none;
+    height: 0.25rem;
+    position: absolute;
+    width: 100%;
+
+}
+.blog-read-time-bar.-active {
+    background-attachment: local;
+    display: block;
+}
+.blog-read-time-bar-indicator {
+    background-attachment: local;
+    appearance: none;
+    background-color: transparent;
+    border: 0;
+    height: inherit;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+}
+
+
 
         /* Header */
 .header {
